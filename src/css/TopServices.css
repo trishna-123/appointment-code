@@ -1,0 +1,85 @@
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top: 40px;
+    text-align: center;
+    position: relative;
+    color: darkblue;
+}
+
+h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top:50px;
+    text-align: center;
+    color: darkcyan;
+    position: relative;
+}
+
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    top: 70px;
+    color:darkslateblue;
+}
+
+.card{
+    border-color: dodgerblue;
+    position: relative;
+    top: 40%;
+    display:flex;
+    border-radius: 5%;
+    background-color: 	#faebd7;
+}
+
+.card-img-top {
+    width: 95%;
+    height: 10rem;
+    top: 2px;
+    left: 7px;
+    position: relative;
+    object-fit: center;
+}
+
+.card-title{
+    position: relative;
+    top: 15px;
+    font-family: serif;
+    text-align: center;
+
+}
+
+.card-body{
+    position: relative;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: small;
+}
+
+.button {
+    background-color: cornsilk;
+    border: 2px solid darkgreen;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 0px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    border-radius: 5px;
+  }
+
+ /*  .button1{
+    position: absolute;
+    left: 30px;
+  }
+
+  .button2{
+    position: absolute;
+    right: 30px;
+  } */
+  
+  .button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
